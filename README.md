@@ -21,3 +21,8 @@ programs for understanding python in simple and efficient way!
     multiple if
     if else
     if elif else
+- 6_string_info.py
+        strings
+      features of string
+      indexing, negative indexing, immutability, slicing
+      
