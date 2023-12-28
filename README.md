@@ -26,3 +26,8 @@ programs for understanding python in simple and efficient way!
       features of string
       indexing, negative indexing, immutability, slicing
       
+- 7_string methods_1
+        string inbuilt methods in python 
+      upper(), lower(), title(), casefold(), index(), count(), replace(), center(), strip(), isalnum()
+  - 8_string_methods2.py
+        isnumeric(),find(),isalpha(),endswith(), split(),istitle(),islower(),rstrip(),lstrip(),swapcase()
