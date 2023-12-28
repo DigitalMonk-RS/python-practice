@@ -1,0 +1,67 @@
+# upper lower title casefold index count replace center strip isalnum
+# python string methods is a collection of in-built Python functions
+# string methods in python
+some_string = "heLLo it's mE RoSHAN Shrestha"
+print(f"Original string is: {some_string}")
+            #1 upper()
+print("\t\tDemo of upper() method")
+print(some_string.upper()) # all characters is converted to upper case (capital letter)
+            # 2 lower()
+print("\t\tDemo of lower() method")
+print(some_string.lower()) # all characters is converted to lower case (small letter)
+            # 3 title()
+print("\t\tDemo of title() method")
+print(some_string.title()) # first letter of all words is converted to capital letter
+            # 4 casefold()
+print("\t\tDemo of casefold() method")
+print(some_string.casefold()) #converts all charcaters into lower case
+# suited for caseless matching for unicode characters
+# NOTE:  str.lower() is suited for caseless matching of ASCII characters.
+            # 5 index()
+# returns the lowest index in which that character resided
+print("\t\tDemo of index() method")
+print(some_string.index('R'))
+print(some_string.index('e'))
+# Raise value error if not found
+# ValueError: substring not found
+# uncomment and check this one
+# print(some_string.index('X'))
+            # 6 count()
+# returns the total number of characters that is found in the string
+print("\t\tDemo of count() method")
+print(f"original string is {some_string}")
+print(some_string.count('e'))
+# returns 0 if not found
+print(some_string.count('X'))
+            # 7 replace()
+# replace the character with the provided character/word
+print("\t\tDemo of replace() method")
+print(some_string.replace('e','Nepalese'))
+# can be controlled how many places those updates are required
+print(some_string.replace('e','Nepalese',1))
+print(some_string.replace('e','Nepalese',0))
+            # 8 center()
+print("\t\tDemo of center() method")
+# center align the string, using a specified character (space is default) as the fill character.
+temp_string = some_string.center(92,'-')
+print(temp_string)
+            # 9 strip()
+# Return a copy of the string with leading and trailing whitespace removed.
+print("\t\tDemo of center() method")
+some_string = " heLLo it's mE RoSHAN Shrestha "
+print(some_string)
+print(f"string after strip is \n{some_string.strip()}")
+
+some_string = "heLLo it's mE RoSHAN Shresth"
+print(some_string)
+print(f"string after strip h is \n{some_string.strip('h')}")
+                # 10 isalnum()
+# Return True if the string is an alpha-numeric string, False otherwise.
+print("\t\tDemo of isalnum() method")
+some_string = "Roshanshrestha123"
+print(some_string.isalnum())
+some_string = "123"  # True
+print(some_string.isalnum())
+some_string = "Roshan shrestha123"
+print(some_string.isalnum())  # False since whitespace is there
+
