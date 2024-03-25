@@ -37,7 +37,7 @@ programs for understanding python in simple and efficient way!
         customized index
         methods like mean median sum max sort ascending descending
         list and dictionar objects used for series etcetera
-  - 10_pandas_DataFrame
+- 10_pandas_DataFrame
         constructing dataframe using dictionary ,series, ndarray etcetera
         columns and index access
         accessing selected columns 
