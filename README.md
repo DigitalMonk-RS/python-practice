@@ -29,5 +29,11 @@ programs for understanding python in simple and efficient way!
 - 7_string methods_1
         string inbuilt methods in python 
       upper(), lower(), title(), casefold(), index(), count(), replace(), center(), strip(), isalnum()
-  - 8_string_methods2.py
+- 8_string_methods2.py
         isnumeric(),find(),isalpha(),endswith(), split(),istitle(),islower(),rstrip(),lstrip(),swapcase()
+- 9_pandas_series
+        how series work
+        indexing and slicing in series
+        customized index
+        methods like mean median sum max sort ascending descending
+        list and dictionar objects used for series etcetera
